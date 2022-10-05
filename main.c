@@ -1,9 +1,11 @@
-#include "tad_Palavra.c"
+#include "tad_Palavra.h"
 
 int main() {
     Palavra item;
 
-    char *palavra = "escola";
+    char palavra[20];
+    strcpy(palavra, "escola");
+    // char *palavra = "escola";
 
     palavraVazia(&item);
     preenchePalavra(&item, palavra);
