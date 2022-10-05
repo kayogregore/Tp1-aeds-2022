@@ -1,4 +1,3 @@
 All:
-	gcc main.c tad_Palavra.h tad_Palavra.c -o ok
-Run:
+	gcc main.c ./headers/tad_Palavra.h ./sources/tad_Palavra.c -o ok
 	./ok

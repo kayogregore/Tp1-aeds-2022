@@ -1,4 +1,4 @@
-#include "tad_Palavra.h"
+#include "../headers/tad_Palavra.h"
 
 int palavraVazia(Palavra *item) {
     if(strcmp(item->caracter, "") == 0 ){

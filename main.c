@@ -1,4 +1,4 @@
-#include "tad_Palavra.h"
+#include "headers/tad_Palavra.h"
 
 int main() {
     Palavra item;
